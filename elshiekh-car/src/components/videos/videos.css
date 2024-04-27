@@ -1,0 +1,43 @@
+.videos .holder .list ul li {
+  transition: 0.5s;
+}
+.videos .holder .preview {
+  flex: 1;
+}
+.videos .holder .preview img {
+  max-width: 100%;
+}
+.videos .video-box {
+  background-image: url(@/assets/imgs/cars-video.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.videos .video-box .play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(#e81c22 50%, rgba(232, 28, 34, 0.47) 52%);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 47px);
+  overflow: hidden;
+}
+.videos .video-box .play-btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  transform: translateX(-50%) translateY(-50%);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}/*# sourceMappingURL=videos.css.map */

@@ -1,0 +1,38 @@
+.stats {
+  background-image: url("@/assets/imgs/stats.jpg");
+  background-size: cover;
+}
+.stats::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.stats .container .box {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.stats .container .box::before, .stats .container .box::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: #e81c22;
+  transition: 1s;
+  height: 0;
+}
+.stats .container .box::before {
+  top: 0;
+  right: 0;
+}
+.stats .container .box::after {
+  left: 0;
+  bottom: 0;
+}
+.stats .container .box:hover {
+  opacity: 1;
+}
+.stats .container .box:hover::before, .stats .container .box:hover::after {
+  height: 100%;
+}/*# sourceMappingURL=Stats.css.map */

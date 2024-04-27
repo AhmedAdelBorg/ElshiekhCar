@@ -1,0 +1,18 @@
+.brands .container .box {
+  overflow: hidden;
+  transition: 0.5s;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+.brands .container .box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+}
+.brands .container .box:hover .icon {
+  animation: moving-arrow 0.6s linear infinite;
+}
+
+@keyframes moving-arrow {
+  100% {
+    transform: translateX(-10px);
+  }
+}/*# sourceMappingURL=BrandsCar.css.map */
