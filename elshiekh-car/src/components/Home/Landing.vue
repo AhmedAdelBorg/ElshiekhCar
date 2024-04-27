@@ -31,6 +31,5 @@
   </div>
 </template>
 <script>
-import "./Landing.css";
 export default {};
 </script>

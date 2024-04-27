@@ -92,6 +92,5 @@
 </template>
 
 <script>
-import "./Footer.css";
 export default {};
 </script>

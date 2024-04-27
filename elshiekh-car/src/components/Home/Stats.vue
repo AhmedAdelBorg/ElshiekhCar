@@ -38,6 +38,5 @@
 </template>
 
 <script>
-import "./Stats.css";
 export default {};
 </script>

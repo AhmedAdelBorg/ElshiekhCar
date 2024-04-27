@@ -1,6 +1,5 @@
 <script>
 import BrandsCar from "../../json/brands.json";
-import "./BrandsCar.css";
 export default {
   name: "BrandsCar",
   data() {

@@ -60,6 +60,5 @@
 </template>
 
 <script>
-import "./WorkSteps.css";
 export default {};
 </script>

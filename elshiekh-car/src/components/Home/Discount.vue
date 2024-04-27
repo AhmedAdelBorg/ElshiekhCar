@@ -45,6 +45,5 @@
 </template>
 
 <script>
-import "./Discount.css";
 export default {};
 </script>

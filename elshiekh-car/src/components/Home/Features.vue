@@ -55,6 +55,5 @@
 </template>
 
 <script>
-import "./Features.css";
 export default {};
 </script>

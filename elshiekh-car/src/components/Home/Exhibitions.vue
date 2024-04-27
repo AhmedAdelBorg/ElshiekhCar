@@ -1,5 +1,4 @@
 <script>
-import "./Exhibitions.css";
 import exhibitions from "../../json/exhibitions.json";
 export default {
   data() {

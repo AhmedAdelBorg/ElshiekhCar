@@ -119,6 +119,5 @@
 </template>
 
 <script>
-import "./Pricing.css";
 export default {};
 </script>

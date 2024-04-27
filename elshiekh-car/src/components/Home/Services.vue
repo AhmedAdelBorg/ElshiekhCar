@@ -77,6 +77,5 @@
 </template>
 
 <script>
-import "./Services.css";
 export default {};
 </script>

@@ -1,6 +1,5 @@
 <script>
 import ImgCar from "../../json/cars.json";
-import "./Gallery.css";
 export default {
   data() {
     return {

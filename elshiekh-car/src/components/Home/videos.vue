@@ -75,6 +75,5 @@
 </template>
 
 <script>
-import "./videos.css";
 export default {};
 </script>
